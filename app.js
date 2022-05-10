@@ -1,4 +1,4 @@
-setInterval(function(){
+setInterval(() => {
     const clock = document.querySelector(".display");
     let time = new Date();
     let sec = time.getSeconds();
